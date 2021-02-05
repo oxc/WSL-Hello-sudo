@@ -34,7 +34,8 @@ Although you don't have to care about the detailed installation process,
 1. Copy small Windows CLI apps that launch Windows Hello to `C:\Users\your_account\pam_wsl_hello` (default location)  
 2. Install a PAM module to your WSL system.
 3. Create config files in `/etc/pam_wsl_hello/`
-4. Create `uninstall.sh`
+4. Create a pam-config entry for automatic pam configuration
+5. Create `uninstall.sh`
 
 ### Configuration
 
